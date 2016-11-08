@@ -1,56 +1,58 @@
 .cancha{
     background-color: #8cb27c;
-    width: 1000px;
-    height:  500px;
-    position: static;
-    margin: auto;
-    margin-top: 100px;
+    width: 79%;
+    height: 75%;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    
 }
 .linea {
-    width: 960px;
-    height: 455px;
+    width: 96%;
+    height: 92%;
     border: 1px solid #fff;
-    margin: 20px;
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 3%;
+    left: 1.5%;
 }
 .arco1, .arco2 {
-    width: 120px;
-    height: 200px;
+    width: 15%;
+    height: 45%;
     position: absolute;
     border: 1px solid #fff;
 }
 
 .arco1{
-    top: 130px;
+    top: 27%;
     border-left: none;
 }
 .arco2{
-    top: 130px;
-    left: 840px;
+    top: 27%;
+    left: 85%;
     border-right: none;   
 }
 .circulo {
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: 40%;
     border: 1px solid #fff;
     margin: auto;
-    position: relative;
-    top:120px;
+    position: absolute;
+    top:28%;
+    left: 40%;
     border-radius: 100%;   
 }
 .ball1{
-    position: relative;
-    left:110px;
-    bottom: 70px;
+    position: absolute;
+    left:14%;
+    top:30%;
 }
 .ball2{
-    position: relative;
-    left:500px;
-    bottom: 170px;
+    position: absolute;
+    left:55%;
+    top:15%;
 }
 .ball3{
-    position: relative;
-    left:810px;
-    bottom:-40px;
+    position: absolute;
+    left:82.5%;
+    top: 68%;
 }
